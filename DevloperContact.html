@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Welcome to Gayatri Electrical</title>
+    <title>About Us</title>
 </head>
 <body>
     <header class="text-gray-600 body-font">
@@ -17,10 +17,13 @@
             <span class="ml-3 text-xl">Welcome to Gayatri Electrical</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <button class="mr-5 hover:text-gray-900">Home</button>
+            <button onclick="location.href = 'https://rohitpatel31.github.io/MyGym/index.html';" id="myButton" class="mr-5 hover:text-gray-900" >Home</button>
             <button onclick="location.href = 'https://rohitpatel31.github.io/MyGym/services.html';" id="myButton" class="mr-5 hover:text-gray-900" >Services</button>
+
+            <button onclick="location.href = 'file:///C:/WebSite/services.html';" id="myButton" class="mr-5 hover:text-gray-900" >Services</button>
+
             <button onclick="location.href = 'https://rohitpatel31.github.io/MyGym/AboutUs.html';" id="myButton" class="mr-5 hover:text-gray-900" >AboutUs</button>
-            <button onclick="location.href = 'https://rohitpatel31.github.io/MyGym/DevloperContact.html';" id="myButton" class="mr-5 hover:text-gray-900" >Developer Contact</button>
+            <button class="mr-5 hover:text-gray-900">Developer Contact</button>
           </nav>
           <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Back
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -29,61 +32,30 @@
           </button>
         </div>
       </header> 
-      <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Most Welcome to Gayatri Electrical
-              <br class="hidden lg:inline-block">Experince Electrical
-            </h1>
-            <p class="mb-8 leading-relaxed">Every electrical and electronic items available here like...Fan,Cooler, Refrigrator,Mobile,Air Cooler</p>
-            <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Enroll Now</button>
-              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Pricing</button>
+
+      <section class="text-gray-600 body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+          <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.679281001933!2d73.20562981428412!3d23.10883351889896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e0f3ea5c02fef%3A0x951e884265ca8555!2sGayatri%20electrics!5e0!3m2!1sen!2sin!4v1621751413285!5m2!1sen!2sin" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+          <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+            <p class="leading-relaxed mb-5 text-gray-600">Give your feedback... So we can server you better</p>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
-          </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/user/erondu/720x600/?Electrical,Fan,cooler">
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            <p class="text-xs text-gray-500 mt-3">Every suggetion acceptable</p>
           </div>
         </div>
       </section>
-      <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="lg:w-4/5 mx-auto flex flex-wrap">
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-              <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-              <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Animated Night Hill Illustrations</h1>
-              <div class="flex mb-4">
-                <a class="flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1">Description</a>
-                <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
-                <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
-              </div>
-              <p class="leading-relaxed mb-4">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.</p>
-              <div class="flex border-t border-gray-200 py-2">
-                <span class="text-gray-500">Color</span>
-                <span class="ml-auto text-gray-900">Blue</span>
-              </div>
-              <div class="flex border-t border-gray-200 py-2">
-                <span class="text-gray-500">Size</span>
-                <span class="ml-auto text-gray-900">Medium</span>
-              </div>
-              <div class="flex border-t border-b mb-6 border-gray-200 py-2">
-                <span class="text-gray-500">Quantity</span>
-                <span class="ml-auto text-gray-900">4</span>
-              </div>
-              <div class="flex">
-                <span class="title-font font-medium text-2xl text-gray-900">60.00</span>
-                <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
-                <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://source.unsplash.com/user/erondu/720x600/?Electronics?Fan? Air cooler">
-          </div>
-        </div>
-      </section>
+      
+      
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -123,4 +95,3 @@
       </footer>  
 </body>
 </html>
-
